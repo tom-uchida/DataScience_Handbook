@@ -12,8 +12,8 @@
 # 配列内のすべての要素を合計する．
 import numpy as np
 L = np.random.random(100)
-sum(L)		# Pythonに組み込みのsum関数
-np.sum(L)	# NumPyのsum関数
+sum(L)      # Pythonに組み込みのsum関数
+np.sum(L)   # NumPyのsum関数
 
 
 
@@ -22,8 +22,8 @@ np.sum(L)	# NumPyのsum関数
 # --------------------------
 # ----- 2.4.2 最大と最小 -----
 # --------------------------
-min(big_array), max(big_array)			# Pythonに組み込みのmin，max関数
-np.min(big_array), np.max(big_array)	# NumPyのmin，max関数
+min(big_array), max(big_array)          # Pythonに組み込みのmin，max関数
+np.min(big_array), np.max(big_array)    # NumPyのmin，max関数
 
 # min，max，sumおよびその他いくつかの集約を行うには，
 # 配列オブジェクトのメソッドを使用する方が簡単．
