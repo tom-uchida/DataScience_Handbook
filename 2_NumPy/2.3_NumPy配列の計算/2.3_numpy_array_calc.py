@@ -15,11 +15,11 @@ import numpy as np
 np.random.seed(0)
 
 def compute_reciprocals(values):
-	output = np.empty(len(values))
-	for i in range(len(values))
-		output[i] = 1.0 / values[i]
+    output = np.empty(len(values))
+    for i in range(len(values))
+        output[i] = 1.0 / values[i]
 
-	return output
+    return output
 
 values = np.random.randint(1, 10, size=5)
 compute_reciprocals(values)
@@ -55,12 +55,12 @@ compute_reciprocals(values)
 # ----- 2.3.3.1 配列演算 -----
 # ---------------------------
 x = np.arrange(4)
-print("x      = ", x)		# x      = [0 1 2 3]
-print("x + 5  = ", x + 5)	# x + 5  = [5 6 7 8]
-print("x - 5  = ", x - 5)	# x - 5  = [-5 -4 -3 -2]
-print("x * 2  = ", x * 2)	# x * 2  = [0 2 4 6]
-print("x / 2  = ", x / 2)	# x / 2  = [0. 0.5 1.0 1.5]
-print("x // 2 = ", x // 2)	# x // 2 = [0 0 1 1]
+print("x      = ", x)       # x      = [0 1 2 3]
+print("x + 5  = ", x + 5)   # x + 5  = [5 6 7 8]
+print("x - 5  = ", x - 5)   # x - 5  = [-5 -4 -3 -2]
+print("x * 2  = ", x * 2)   # x * 2  = [0 2 4 6]
+print("x / 2  = ", x / 2)   # x / 2  = [0. 0.5 1.0 1.5]
+print("x // 2 = ", x // 2)  # x // 2 = [0 0 1 1]
 
 np.add(x, 2)
 # array([2, 3, 4, 5])
@@ -88,7 +88,7 @@ np.abs(x)
 # 角度の配列を定義．
 theta = np.linspace(0, np.pi, 3)
 # これらの値に対して三角関数を計算できる．
-print("theta 	  = ", theta)
+print("theta      = ", theta)
 print("sin(theta) = ", np.sin(theta))
 print("cos(theta) = ", np.cos(theta))
 print("tan(theta) = ", np.tan(theta))
