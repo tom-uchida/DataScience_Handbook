@@ -4,9 +4,9 @@
 import numpy as np
 np.random.seed(0) # 同じ乱数を得るために，乱数シードを設定する
 
-x1 = mp.random.randint(10, size=6)          # 1次元配列
-x2 = mp.random.randint(10, size=(3, 4))     # 2次元配列
-x3 = mp.random.randint(10, size=(3, 4, 5))  # 3次元配列
+x1 = np.random.randint(10, size=6)          # 1次元配列
+x2 = np.random.randint(10, size=(3, 4))     # 2次元配列
+x3 = np.random.randint(10, size=(3, 4, 5))  # 3次元配列
 
 # 各配列には，属性として
 #   ndim(次元数)
